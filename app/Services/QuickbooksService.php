@@ -8,6 +8,7 @@ use QuickBooks_WebConnector_Server;
 
 abstract class QuickBooksService extends QuickBooks_Utilities
 {
+    protected $server;
     protected $queue;
     protected $dsn = "";
     protected $errMap = [];
@@ -52,14 +53,8 @@ abstract class QuickBooksService extends QuickBooks_Utilities
             static::createUser($dsn, $user, $pass);
             $this->queue = new QuickBooks_WebConnector_Queue($dsn);
         }
-    }
 
-    /**
-     * Create a new QuickBooks SOAP server
-     */
-    public function sendRequest()
-    {
-        $Server = new QuickBooks_WebConnector_Server(
+        $this->server = new QuickBooks_WebConnector_Server(
             $this->dsn,
             $this->map,
             $this->errMap,
@@ -72,8 +67,14 @@ abstract class QuickBooksService extends QuickBooks_Utilities
             $this->driverOptions,
             $this->callbackOptions
         );
+    }
 
-        return $Server->handle(true, true);
+    /**
+     * Create a new QuickBooks SOAP server
+     */
+    public function sendRequest()
+    {
+        return $this->server->handle(true, true);
     }
 
     /**

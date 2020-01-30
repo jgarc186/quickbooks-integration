@@ -5,7 +5,7 @@ namespace App\Services;
 class InvoiceService extends QuickBooksService
 {
     /**
-     * Adding a new customer to QuickBooks
+     * Adding a new order to QuickBooks
      *
      * @param int $id
      */
@@ -15,7 +15,7 @@ class InvoiceService extends QuickBooksService
     }
 
     /**
-     * Edit existing customer in QuickBooks
+     * Edit existing order in QuickBooks
      *
      * @param int $id
      */
@@ -25,7 +25,7 @@ class InvoiceService extends QuickBooksService
     }
 
     /**
-     * Delete existing customer in QuickBooks
+     * Delete existing order in QuickBooks
      *
      * @param int $id
      */
