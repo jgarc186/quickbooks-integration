@@ -1,0 +1,11 @@
+{
+  "name": "soap",
+  "version": "1.0.0",
+  "description": "SOAP server for QB integration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jose Garcia",
+  "license": "ISC"
+}

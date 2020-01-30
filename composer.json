@@ -1,0 +1,25 @@
+{
+    "name": "josegarcia/soap",
+    "description": "Server to make calls to QB SDK.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Jose Garcia",
+            "email": "jose.garcia051@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-soap": "*",
+        "vlucas/phpdotenv": "^4.1",
+        "ext-mysqli": "*",
+        "consolibyte/quickbooks": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/Helpers/functions.php"
+        ]
+    }
+}

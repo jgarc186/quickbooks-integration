@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="810e4936-a632-431e-a2ea-c21a0e6fa8bc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/consolibyte/quickbooks" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1X4SBQp5Od1GJRCVxKo1pJ8jEqt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/app/Controllers" />
+      <recent name="$PROJECT_DIR$/app/Services" />
+      <recent name="$PROJECT_DIR$/app/Controller" />
+      <recent name="$PROJECT_DIR$/resources/views" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="810e4936-a632-431e-a2ea-c21a0e6fa8bc" name="Default Changelist" comment="" />
+      <created>1580303737443</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580303737443</updated>
+      <workItem from="1580303741103" duration="3816000" />
+      <workItem from="1580309617966" duration="2425000" />
+      <workItem from="1580313708834" duration="2042000" />
+      <workItem from="1580316308156" duration="1631000" />
+      <workItem from="1580318331013" duration="880000" />
+      <workItem from="1580319962515" duration="3115000" />
+      <workItem from="1580325977793" duration="11425000" />
+      <workItem from="1580389650509" duration="459000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="648" y="295" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580316273216">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="648" y="295" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1580316273216" />
+    <state x="514" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580315980436">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="514" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1580315980436" />
+    <state x="723" y="471" key="ComposerInitDialogKey" timestamp="1580319208531">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="723" y="471" key="ComposerInitDialogKey/0.23.1920.1057@0.23.1920.1057" timestamp="1580319208531" />
+    <state x="755" y="359" key="NewPhpClassDialog" timestamp="1580325024371">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="755" y="359" key="NewPhpClassDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1580325024371" />
+    <state x="800" y="478" key="NewPhpFileDialog" timestamp="1580336157403">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="800" y="478" key="NewPhpFileDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1580336157403" />
+    <state x="941" y="190" key="SettingsEditor" timestamp="1580303908324">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="941" y="190" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1580303908324" />
+    <state x="1187" y="290" width="540" height="540" key="StructurePopup" timestamp="1580337642380">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1187" y="290" width="540" height="540" key="StructurePopup/0.23.1920.1057@0.23.1920.1057" timestamp="1580337642380" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1580338290232">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="500" height="400" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1580333117227" />
+    <state width="500" height="445" key="SwitcherDM/0.23.1920.1057@0.23.1920.1057" timestamp="1580338290232" />
+    <state x="154" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1580389651960">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="154" y="384" key="com.intellij.ide.util.TipDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1580389651960" />
+    <state x="1079" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1580389698426">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1079" y="258" width="670" height="676" key="search.everywhere.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1580389698426" />
+  </component>
+</project>
