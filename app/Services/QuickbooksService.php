@@ -6,7 +6,7 @@ use QuickBooks_Utilities;
 use QuickBooks_WebConnector_Queue;
 use QuickBooks_WebConnector_Server;
 
-class QuickBooksService extends QuickBooks_Utilities
+abstract class QuickBooksService extends QuickBooks_Utilities
 {
     protected $queue;
     protected $dsn = "";
@@ -19,7 +19,9 @@ class QuickBooksService extends QuickBooks_Utilities
         // See http://www.php.net/soap
     ];
 
-    // Map QuickBooks actions to handler functions
+    /**
+     * Map QuickBooks actions to handler functions
+     */
     protected $map = [
             QUICKBOOKS_ADD_CUSTOMER => [
                 '_quickbooks_customer_add_request',
@@ -27,7 +29,9 @@ class QuickBooksService extends QuickBooks_Utilities
             ]
     ];
 
-    // An array of callback hooks
+    /**
+     * An array of callback hooks
+     */
     protected $hooks = [
         // There are many hooks defined which allow you to run your own functions/methods when certain events happen within the framework
         // QuickBooks_WebConnector_Handlers::HOOK_LOGINSUCCESS => '_quickbooks_hook_loginsuccess', 	// Run this function whenever a successful login occurs
@@ -75,20 +79,21 @@ class QuickBooksService extends QuickBooks_Utilities
     /**
      * Adding a new customer to QuickBooks
      *
-     * @param int $customerId
+     * @param int $id
      */
-    public function addCustomer(int $customerId)
-    {
-        $this->queue->enqueue(QUICKBOOKS_ADD_CUSTOMER, $customerId, 10);
-    }
+    abstract public function create(int $id);
 
     /**
-     * Adding a new invoice to QuickBooks
+     * Edit existing customer in QuickBooks
      *
-     * @param int $orderId
+     * @param int $id
      */
-    public function addInvoice(int $orderId)
-    {
-        $this->queue->enqueue(QUICKBOOKS_ADD_INVOICE, $orderId, 0);
-    }
+    abstract public function edit(int $id);
+
+    /**
+     * Delete existing customer in QuickBooks
+     *
+     * @param int $id
+     */
+    abstract public function delete(int $id);
 }
