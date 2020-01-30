@@ -33,6 +33,7 @@ local.properties
 #################
 
 .idea
+.php_cs.cache
 
 #################
 ## Visual Studio
