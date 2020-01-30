@@ -6,10 +6,28 @@ use QuickBooks_Utilities;
 use QuickBooks_WebConnector_Queue;
 use QuickBooks_WebConnector_Server;
 
-class QuickbooksService extends QuickBooks_Utilities
+class QuickBooksService extends QuickBooks_Utilities
 {
     protected $queue;
-    protected $utilities;
+    protected $log_level = QUICKBOOKS_LOG_DEBUG;
+    protected $soapserver = QUICKBOOKS_SOAPSERVER_BUILTIN;
+    protected $soap_options = [
+        // See http://www.php.net/soap
+    ];
+
+    // Map QuickBooks actions to handler functions
+    protected $map = [
+            QUICKBOOKS_ADD_CUSTOMER => [
+                '_quickbooks_customer_add_request',
+                '_quickbooks_customer_add_response'
+            ]
+    ];
+
+    // An array of callback hooks
+    protected $hooks = [
+        // There are many hooks defined which allow you to run your own functions/methods when certain events happen within the framework
+        // QuickBooks_WebConnector_Handlers::HOOK_LOGINSUCCESS => '_quickbooks_hook_loginsuccess', 	// Run this function whenever a successful login occurs
+    ];
 
     public function __construct(string $dsn, string $user, string $pass)
     {
@@ -63,7 +81,7 @@ class QuickbooksService extends QuickBooks_Utilities
     }
 
     /**
-     * Adding a new customer to QuicBooks
+     * Adding a new customer to QuickBooks
      *
      * @param int $customerId
      */
