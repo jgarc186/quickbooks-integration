@@ -1,6 +1,8 @@
 <?php
 
+$baseUrl = env('BASE_URL');
+
 return [
-    'account' => 'http://192.168.1.164/soap/resources/views/account',
-    'home' => 'http://192.168.1.164/soap/resources/views'
+    'account' => $baseUrl . '/soap/resources/views/account',
+    'home' => $baseUrl . '/soap/resources/views'
 ];
