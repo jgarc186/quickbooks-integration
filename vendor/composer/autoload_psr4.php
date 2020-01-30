@@ -9,5 +9,6 @@ return array(
     'Symfony\\Polyfill\\Ctype\\' => array($vendorDir . '/symfony/polyfill-ctype'),
     'PhpOption\\' => array($vendorDir . '/phpoption/phpoption/src/PhpOption'),
     'Dotenv\\' => array($vendorDir . '/vlucas/phpdotenv/src'),
+    'Config\\' => array($baseDir . '/config'),
     'App\\' => array($baseDir . '/app'),
 );

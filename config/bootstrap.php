@@ -1,6 +1,6 @@
 <?php
 
-use App\Core\Router;
+use Config\Core\Router;
 
 $routes = require "../resources/routes.php";
 

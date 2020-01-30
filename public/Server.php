@@ -2,7 +2,7 @@
 
 require "../vendor/autoload.php";
 
-use App\Core\DbConnect;
+use Config\Core\DbConnect;
 use App\Services\Product;
 
 class Server extends DbConnect
